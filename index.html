@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>big homework</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="4.css" />
+	<script src="animate.js"></script>
+</head>
+<body id='bigbox'>
+	<div class="header">
+		<div class="header-top">
+			<div class="inter clear">		
+				<ul class="header-up clear">
+					<li><a href='#' id='changeback'>恢复白色背景</a></li>
+					<li><a href='#' id='change'>点击切换颜色</a></li>
+					<li><a href="#" id="user">登录/注册</a></li>
+					<li class="client"><a href="#">移动客户端</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="inter clear">
+				<img src="images/logo-star.jpg" class="logo" />
+				<ul class="header-down clear">
+				<li class="first"><a href="#" class="index">银河系</a></li>
+				<li>
+					<a href="#">仙女星系</a>
+					<ul>
+						<li><a href="#">观测历史</a></li>
+						<li><a href="#">研究成果</a></li>
+						<li><a href="#">卫星星系</a></li>
+						<li><a href="#">星系特征</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">草帽星系</a>
+					<ul>
+						<li><a href="#">基本简介</a></li>
+						<li><a href="#">发现经过</a></li>
+						<li><a href="#">形成原因</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">双胞胎星系</a>
+					<ul>
+						<li><a href="#">特点</a></li>
+						<li>
+							<a href="#">发展</a>
+							<ul>
+								<li><a href="#">形成黑洞</a></li>
+								<li><a href="#">未来变化</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">黑眼星系</a>
+					<ul>
+						<li><a href="#">命名</a></li>
+						<li><a href="#">特征</a></li>
+					</ul>
+				</li>
+				</ul>
+				<form class="form">
+					<input type="text" placeholder="请输入关键字" class="check"/>
+					<input type="button" class="button" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="banner inter clear big" id="big">
+		<div class="slider" id="slider">
+			<!-- 最后一个 -->
+			<div class="slide"><img src="images/banner-2.jpg" width="1200px" height="400px" alt=""></div>
+			<div class="slide"><img src="images/banner-1.jpeg" width="1200px" height="400px" alt=""></div>
+			<div class="slide"><img src="images/banner-2.jpg" width="1200px" height="400px" alt=""></div>
+			<div class="slide"><img src="images/banner-1.jpeg" width="1200px" height="400px" alt=""></div>
+			<!-- 第一个 -->
+			<div class="slide"><img src="images/banner-2.jpg" width="1200px" height="400px" alt=""></div>
+		</div>
+		<span id="left"><</span>
+		<span id="right">></span>
+		<ul class="nav" id="nav">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+	<div class="container-on clear inter">
+		
+		<div class="container-on-left">
+			<div class="container_on_add">
+				<span id="timenow"></span>
+			</div>
+			<img src="images/北斗.jpg" height="500px" width="400px" />
+			<div class="seven">北斗七星</div>
+		</div>
+		<div class="container-on-right">
+			<ul class="information clear">
+				<li class="inf1">最新资讯</li>
+				<li class="inf3" id="manynews"><a href="#">综合新闻</a></li>
+				<li class="inf3" id="newlearn"><a href="#">探索新知</a></li>
+				<li class="inf3" id="forum"><a href="#">论坛资讯</a></li>
+			</ul>
+			<div class="embed clear">
+				<img src="images/太阳.jpg" height="130px" width="140px" />
+				<a href="#" class="sun">关于太阳,你真的了解它吗?</a>
+				<p id="sunlittle">当太阳耀斑爆发几分钟之内，地球的磁场发生了剧烈的变化，就连当时的地磁仪的指针都出现了失灵的情况。当太阳耀斑出现的十几个小时之后······</p>
+			</div>
+			<ul class="list">
+				<li class="list_1">新闻</li>
+				<li class="list_2">新闻</li>
+				<li class="list_3">新闻</li>
+				<li class="list_4">新闻</li>
+				<li class="list_5">新闻</li>
+				<li class="list_6">新闻</li>
+			</ul>
+			<ul class="listnews">
+				<li><a href="#">宇宙火环!天文学家发现110亿光年外罕见环形星系 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020.6.4</span></a></li>
+				<li><a href="#">请定好您的闹钟,晚上,可在南天夜空欣赏到“角宿一伴月”天文奇观 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020.6.4</span></a></li>
+				<li><a href="#">天文迷们有福了!平时最难观测的水星将迎来最佳观测时间! <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020.6.4</span></a></li>
+				<li><a href="#">宋朝的天文学成就辉煌,为什么没有诞生杰出的天文学家? <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020.6.4</span></a></li>
+				<li class="target_1"><a href="#">天文狂欢月:日环食、双星伴月、流星雨…这个6月太难得了 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020.6.4</span></a></li>
+				<li class="target_2"><a href="#">“深度学习”算法为天文学带来了新的工具 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020.6.4</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-in inter clear">
+
+		<div id="container_left_box" class="container-left clear">
+			<p id="hello"></p>
+      <div id="words" class="container_left clear">
+        <div id='wrap' style='display:block;'></div>
+      </div>
+      <input id='input_in' style="text"/>
+      <button id="send">发送</button>
+
+		</div>
+		
+		<div class="container-right">
+			<ul class="clear">
+				<li id="galaxy">
+					<img id="pic1" src="images/starshui.jpg" width="200px" height="200px"/>
+					<div class="galaxy">
+						水星
+					</div>
+				</li>
+				<li id="galaxy">
+					<img id="pic2" src="images/starjin.jpg" width="200px" height="200px"/>
+					<div class="galaxy">
+						金星
+					</div>
+				</li>
+				<li id="galaxy">
+					<img id="pic3" src="images/地球.jpg" width="200px" height="200px" />
+					<div class="galaxy">
+						地球
+					</div>
+				</li>
+				<li id="galaxy">
+					<img id="pic4" src="images/starhuo.jpg" width="200px" height="200px" /><div class="galaxy">
+						火星
+					</div></li>
+				<li id="galaxy">
+					<img id="pic5" src="images/starmu.jpg" width="200px" height="200px" />
+					<div class="galaxy" >
+						木星
+					</div>
+				<!-- </li> -->
+				<li id="galaxy">
+					<img id="pic6" src="images/startu.jpg" width="200px" height="200px" />
+					<div class="galaxy" >
+						土星
+					</div>
+				</li>
+				<li id="galaxy">
+					<img id="pic7" src="images/startw.jpg" width="200px" height:200px />
+					<div class="galaxy">
+						天王星
+					</div>
+				</li>
+				<li id="galaxy">
+					<img id="pic8" src="images/starhw.jpg" width="200px" height="200px" />
+					<div class="galaxy">
+						海王星
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-down inter clear">
+		<div>
+			<p>相关诗歌<a href="#">查看更多</a></p>
+		</div>
+			<ul>
+			<li>从宇宙起源到最后一个黑洞消失的这个过程中</li>
+			<li>生命 正如我们所知</li>
+			<li>只有百分之千亿分之一</li>
+			<li>千亿分之千分之七的可能性</li>
+			<li>所以对于我来说</li>
+			</ul>
+			<ul class="continue">
+			<li>宇宙中最惊人的奇迹</li>
+			<li>不是恒星 不是行星 也不是星系</li>
+			<li>甚至根本就不是一个物质</li>
+			<li>而是时间里的一瞬间</li>
+			<li>那个瞬间 就是现在</li>
+			</ul>
+	</div>
+		
+	<div class="footer">
+		<div class="footer-container clear inter">
+			<div class="cloud">
+			<p>星云<a href="#" class="know">了解更多</a></p>
+			</div>
+			<ul class="inter clear">
+				<li>
+					<img src="images/cloud1.jpg" width="235px" height="200px" />
+					<div class="more">
+						绚烂的星云
+					</div>
+				</li>
+				<li>
+					<img src="images/上帝之眼.jpg" width="235px" height="200px" />
+					<div class="more">
+						上帝之眼
+					</div>
+				</li>
+				<li>
+					<img src="images/上帝之唇.jpg" width="235px" height="200px" />
+					<div class="more">
+						上帝之唇
+					</div>
+				</li>
+				<li>
+					<img src="images/反射星云.jpg" width="235px" height="200px" /><div class="more">
+						反射星云
+					</div>
+				</li>
+				<li>
+					<img src="images/双极星云.jpg" width="235px" height="200px" /><div class="more">
+						双极星云
+					</div>
+				</li>
+			</ul>
+			<div class="read inter">阅读更多&nbsp;&nbsp;&nbsp;<a href="#"><span>最新资讯</span></a>
+			</div>	
+		</div>
+		<div class="copyright inter" id='bigbox'>
+			<div class='box2'>
+			<p>制作：河北师范大学软件学院*级*班***</p>
+			<p>文字，图片来源：某网站</p>
+		</div>
+		</div>
+		<div id="top" class="up" onclick="goTop()" >回到顶部</div>
+	</div>
+	<script>
+		//倒计时
+		var timenow=document.getElementById('timenow');
+		timenow.style.font="宋体";
+		timenow.style.fontSize="24px";
+		function control(n){
+			return n<10?'0'+n:n;
+		}
+		setInterval(function(){
+			var now=new Date();//在外面秒数就不变了
+			timenow.innerHTML="当前时间："+control(now.getHours())+"时"+control(now.getMinutes())+"分"+control(now.getSeconds())+"秒";
+				
+			 },1000);
+
+		//搜索内容不能为空
+		var check=document.getElementsByClassName('check')[0],
+			button=document.getElementsByClassName('button')[0];
+		button.onclick=function(){
+			// console.log(check.value);
+			if(check.value==''){
+				alert("请输入查找内容");
+			}
+		}
+		//轮播图
+		var big = document.getElementById('big');
+		var oNavlist = document.getElementById('nav').children;
+		var slider = document.getElementById('slider');
+		var left = document.getElementById('left');
+		var right = document.getElementById('right');
+		var index = 1;
+		var timer;
+		var isMoving = false;
+		big.onmouseover = function(){
+			animate(left,{opacity:50})
+			animate(right,{opacity:50})
+			clearInterval(timer)
+		}
+		big.onmouseout = function(){
+			animate(left,{opacity:0})
+			animate(right,{opacity:0})
+			timer = setInterval(next, 3000);
+		}
+		right.onclick = next;
+		left.onclick = prev;
+		for( var i=0; i<oNavlist.length; i++ ){
+			oNavlist[i].index = i;
+			oNavlist[i].onclick = function(){
+				index = this.index+1;
+				navmove();
+				animate(slider,{left:-1200*index});
+			}
+		}
+		function next(){
+			if(isMoving){
+				return;
+			}
+			isMoving = true;
+			index++;
+			navmove();
+			animate(slider,{left:-1200*index},function(){
+				if(index==4){
+					slider.style.left = '-1200px';
+					index = 1;
+				}
+				isMoving = false;
+			});
+		}
+		function prev(){
+			if(isMoving){
+				return;
+			}
+			isMoving = true;
+			index--;
+			navmove();
+			animate(slider,{left:-1200*index},function(){
+				if(index==0){
+					slider.style.left = '-6000px';
+					index = 3;
+				}
+				isMoving = false;
+			});
+		}
+		function navmove(){
+			for( var i=0; i<oNavlist.length; i++ ){
+				oNavlist[i].className = "";
+			}
+			if(index >3 ){
+				oNavlist[0].className = "active";
+			}else if(index<=0){
+				oNavlist[2].className = "active";
+			}else {
+				oNavlist[index-1].className = "active";
+			}
+		}
+		timer = setInterval(next, 3000);
+
+		//鼠标滑上改变内容
+		var manynews=document.getElementById('manynews'),
+			newlearn=document.getElementById('newlearn'),
+			forum=document.getElementById('forum'),
+			list_1=document.getElementsByClassName('list_1')[0],
+			list_2=document.getElementsByClassName('list_2')[0],
+			list_3=document.getElementsByClassName('list_3')[0],
+			list_4=document.getElementsByClassName('list_4')[0],
+			list_5=document.getElementsByClassName('list_5')[0],
+			list_6=document.getElementsByClassName('list_6')[0],
+			target_1=document.getElementsByClassName('target_1')[0],
+			target_2=document.getElementsByClassName('target_2')[0];
+
+		manynews.onclick=function(){
+			list_3.innerHTML='新闻';
+			list_4.innerHTML='新闻';
+			list_5.style.display='block';
+			list_6.style.display='block';
+			target_1.style.display='block';
+			target_2.style.display='block';
+		}
+		
+		newlearn.onclick=function(){
+			list_3.innerHTML='新知';
+			list_4.innerHTML='新知';
+			list_5.style.display='none';
+			list_6.style.display='none';
+			target_1.style.display='none';
+			target_2.style.display='none';
+		}
+		
+		forum.onclick=function(){
+			list_3.innerHTML='其他';
+			list_4.innerHTML='其他';
+			list_6.style.display='none';
+			target_2.style.display='none';
+		}
+		//弹幕建议
+	 	var send=document.getElementById('send'),
+        words=document.getElementById('wrap'),
+        inp=document.getElementById('input_in');
+
+      	//点击发送按钮
+      	send.onclick=function(){
+      		if(!inp.value){
+    	        alert("请输入内容");
+        	    return;
+        	}
+        	//创建结点、赋值、添加
+         	var span=document.createElement('span');
+          	span.innerHTML=inp.value;//this.value
+          	span.style.left='300px';//获取自身的要设置
+          	span.style.top=Math.random()*50+'px';//0-50
+
+          	var timer=setInterval(function(){
+            	span.style.left=parseInt(span.style.left)-1 +'px';
+          	},50)
+
+          	words.appendChild(span);
+
+          	inp.value='';//将输入框赋为空
+          	//到左边框时消失--超出隐藏
+          	if(parseInt(span.style.left)<-span.offsetWidth){
+            	words.removeChild(span);
+            	clearInterval(timer);
+          	}
+       	}
+     	 
+     	// 回车发送
+      	inp.onkeypress=function(e){
+        //console.log(e.keyCode);
+        	if(e.keyCode==13){
+        		if(!inp.value){
+            	alert("请输入内容");
+            	return;
+          	}
+          	//创建结点、赋值、添加
+          	var span=document.createElement('span');
+          	span.innerHTML=inp.value;//this.value
+          	span.style.left='300px';//获取自身的要设置
+          	span.style.top=Math.random()*50+'px';//0-50
+
+          	var timer=setInterval(function(){
+            	span.style.left=parseInt(span.style.left)-1 +'px';
+          	},50)
+
+          	words.appendChild(span);
+
+          	inp.value='';//将输入框赋为空
+          	//到左边框时消失--超出隐藏
+          	if(parseInt(span.style.left)<-span.offsetWidth){
+           		words.removeChild(span);
+            	clearInterval(timer);
+          	}
+           	inp.value.innerHTML='';
+           }
+       }
+
+      //动态字
+		var hello=document.getElementById('hello');
+		var k=0,timeword=0,str='欢迎提出建议！';
+
+		function typing(){
+			if(k<str.length){
+				hello.innerHTML=str.slice(0,k++)+'_';
+				timeword=setTimeout(typing,200);
+			}else{
+				hello.innerHTML=str;
+				clearTimeout(timeword);
+			}
+		}
+		typing();
+	
+		//回到顶部
+		function goTop(){
+			var odiv = document.getElementById("top");
+			//将滚动距离设置为0，兼容性写法
+			document.documentElement.scrollTop = document.body.scrollTop = 0;
+		}
+
+		window.onscroll = function(){
+			var odiv = document.getElementById("top");
+			//获取垂直滚动条的滚动距离，兼容性写法
+			var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+			if(scrollTop > 100){	
+				odiv.style.display = "block";
+			} else {
+				odiv.style.display = "none"
+			}
+		}
+
+		//更改背景色
+		function getcolor(){
+			var color='';//6位数
+			var str='0123456789abcdef';
+			for(var i=0;i<6;i++){
+				var index=parseInt(Math.random()*16);//Math.floor,取0-15
+				color+=str[index];
+			}
+			return '#'+color;
+		}
+
+		var bigbox=document.getElementById('bigbox');
+		var change=document.getElementById('change');
+		var changeback=document.getElementById('changeback');
+		change.onclick=function(){
+			var bgcolor=getcolor();
+			bigbox.style.backgroundColor=bgcolor;
+		}
+		changeback.onclick=function(){
+			bigbox.style.backgroundColor="#fff";
+		}
+	
+	</script>
+
+</body>
+
+</html>

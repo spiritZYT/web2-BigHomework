@@ -1,0 +1,500 @@
+.big{
+	width: 1200px;
+	height: 350px;
+	border: 1px solid red;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.big>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #red;
+	top: 175px;
+	line-height: 50px;
+	background: red;
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+.up {
+	display: none; 
+	width: 100px; 
+	height: 100px;
+	background: pink; 
+	position: fixed; 
+	right: 10px;
+	bottom: 20px;
+	text-align: center;
+}
+.inter{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	margin-bottom: 20px;
+}
+.header-top{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid rgba(218,218,218,1);
+}
+.header-up{
+	float: right;
+}
+.header-up li{
+	float: left;
+	margin-left: 25px;
+}
+.header-up a{
+	font-size: 14px;
+	font-weight: 300;
+	color: #000;
+}
+.client{
+	padding-left: 17px;
+	background: url(images/iphone.png) no-repeat left center;
+}
+
+.logo{
+	display: block;
+	float: left;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 60px;
+}
+.header-down li{
+	width: 100px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #fcf;
+	padding: 10px;
+}
+.header-down>li{
+	border-left: 2px solid #fff;
+	float: left;	
+	position: relative;
+}
+.header-down li a{
+	color: #000;
+}
+.header-down li:hover{
+	background-color: pink;
+}
+.header-down li:hover>a{
+	color: #fff;
+}
+.header-down{
+	float: left;
+	position: relative;
+	margin-top: 28px;
+	z-index: 2;
+}
+.header-down ul{
+	display: none;
+	position: absolute;
+	padding-top: 10px;
+}
+.header-down li:hover>ul{
+	display: block;
+}
+.header-down>ul>ul{
+	display: none;
+	position: absolute; 
+}
+.header-down>ul>li:hover>ul{
+	display: block;
+}
+
+.form{
+	float: right;
+	margin-top: 35px;
+}
+.check{
+	float: left;
+	padding: 8px;
+	width: 145px;
+	height: 12px;
+	border: 1px solid pink;
+}
+.check:focus{
+	outline: 0 solid pink;
+}
+.button{
+	float: left;
+	vertical-align: bottom;
+	width: 29px;
+	height: 29px;
+	border: 1px solid pink;
+	background: url(images/search.png) pink no-repeat center;
+}
+
+#getusername{
+	display: none;
+	/* z-index: 3px; */
+	text-align: center;
+}
+.banner{
+	/* z-index: -1; */
+	margin-top: 20px;
+} 
+.banner ul{
+	margin-top: 5px;
+	margin-left: 550px;
+}
+.banner ul li{
+	float: left;
+	width: 20px;
+}
+
+
+
+.container-on{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid #ccc;
+	height: 650px;
+
+}
+.container_on_add{
+	background: rgba(138,43,226,0.3);
+	height: 100px;
+	width: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 80%;
+	position: relative;
+}
+#timenow{
+	position: absolute;
+	display: block;
+	padding-left: 45px;
+	padding-top: 35px;
+	color: blue;
+}
+.container-on-left{
+	float: left;
+	margin-left: 20px;
+}
+.container-on-left .seven{
+	text-align: center;
+	margin-top: -50px;
+	background: #ccc;
+	color: #fff;
+}
+.container-on-right{
+	float: left;
+	margin-left: 30px;
+}
+
+.information li{
+	float: left;
+	width: 150px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 20px;
+
+}
+.information .inf1{
+	font-size: 25px;
+	font-weight: bold;
+}
+.information .inf3 a:hover{
+	border-bottom: 2px solid purple;
+	font-weight: bold;
+	padding-bottom: 10px;
+	
+}
+.embed{
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+.embed img{
+	float: left;
+}
+.embed a{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	width: 500px;
+}
+.sun:hover{
+	color: purple;
+}
+#sunlittle:hover{
+	color: purple;
+}
+#sunlittle{
+	font-size: 18px;
+	margin-left: 175px;
+	display: block;
+	width: 500px;
+	height: 130px;
+	color: rgba(0,0,0,0.5);
+}
+.list{
+	margin-top: 20px;
+	float: left;
+	display: block;
+}
+.list li{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	width: 60px;
+	margin-bottom: 10px;
+	background: #ccc;
+}
+.listnews{
+	float: left;
+	
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.listnews li{
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+.listnews li span{
+	color: #ccc;
+}
+.listnews a{
+	width: 600px;
+	color: #000;
+}
+.listnews a:hover{
+	color: purple;
+	border-bottom: 1px solid purple;
+}
+
+.container-in{
+	margin-top: 10px;
+}
+ #container_left_box{
+      float: left;
+      width: 365px;
+      height: 400px;
+      border: 2px solid #ccc;
+}
+
+#input_in{
+	display: inline-block;
+	height: 30px;
+	width: 280px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#send{
+	height: 30px;
+	width: 60px;
+}
+#words{
+	top: 10px;
+	margin-bottom: 10px; 
+	height: 300px;
+	width: 362px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;/* 未进入边框的多余部分隐藏 */
+}
+#words p{
+    position: absolute;
+    left: 300px;
+    white-space: nowrap;
+}
+#words span{
+    position: absolute;
+    left: 300px;
+    white-space: nowrap;/* 控制文本是否折行 */
+}
+#hello{
+	text-align: center;
+	color: purple;
+	font-size: 25px;
+
+}
+
+
+
+.container-right{
+	float: right;
+	width: 820px;
+}
+.container-right ul li{
+	float: left;
+	margin-right: 3px;
+	position: relative;
+}
+.container-right .galaxy{
+	width: 120px;
+	height: 53px;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	font-size: 20px;
+	line-height: 50px;
+	color: #fff;
+	padding-left: 80px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.container-down{
+	margin-top: 18px;
+	position: relative;
+	background: rgba(238,130,238,0.2);
+}
+.container-down p{
+	margin-left: 10px;
+	font-size: 24px;
+}
+.container-down p a{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	font-size: 16px;
+	color: #000;
+}
+.container-down div{
+	padding: 5px;
+	border-bottom: 2px solid purple;
+}
+.container-down ul{
+	margin: 18px auto;
+}
+.container-down ul li{
+	font-size: 18px;
+	height: 50px;
+	width: 360px;
+	color:#000;
+}
+.container-down ul{
+	float: left;
+	margin-left: 200px;
+	margin-top: 24px;
+}
+.container-down .continue{
+	float: left;
+	padding-left: 100px;
+	margin-left: 55px;	
+	border-left: 3px dashed #ccc;
+}
+
+
+.footer-container{
+	margin-top: 15px;
+	padding: 10px;
+}
+.cloud{
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	background:rgba(238,130,238,0.3);
+	margin-bottom: 8px;
+}
+.footer-container p{
+
+	margin-left: 10px;
+	font-size: 24px;
+} 
+.footer-container a{
+	color: #000;
+}
+.know{
+	position: absolute;
+	font-size: 16px;
+	right: 0;
+}
+
+.footer-container ul li{
+	display: inline-block;
+	position: relative;
+}
+
+.footer-container .more{
+	position: absolute;
+	width: 235px;
+	height: 60px;
+	top: 75px;
+	left: 0px;
+	font-size: 20px;
+	line-height: 50px;
+	color: purple;
+	background-color: rgba(0,0,0,0.5);	
+}/* 滑动显示 */
+.footer-container ul li:hover div{
+	display: none;
+}
+
+.footer-container .more{
+	color: #fff;
+	font-size: 14px;
+	position: absolute;
+	right: 20px;
+	text-align: center;
+}
+.read{
+	background: rgba(238,130,238,0.6);
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+}
+.read span{
+	color: purple;
+	border-bottom: 1px solid purple;
+}
+.copyright{
+	height: 140px;
+	margin-top: 8px;
+	background: rgba(255,0,255,0.1);
+	padding-top: 50px;
+}
+.copyright p{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	color: rgb(128,128,128);
+}
+
+
+
